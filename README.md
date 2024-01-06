@@ -1,12 +1,18 @@
 # One-Click Child Theme #
-**Contributors:** tychay    
-**Donate link:** http://www.kiva.org/lender/tychay    
-**Tags:** theme, child theme, child theme creator, child theme creator, CSS, stylesheet, custom theme, customize theme, shared hosting    
-**Requires at least:** 3.0    
-**Tested up to:** 4.1.1    
-**Stable tag:** trunk    
+**Contributors:** tychay, rhildred  
+  
+**Donate link:** http://www.kiva.org/lender/tychay  
+  
+**Tags:** theme, child theme, child theme creator, child theme creator, CSS, stylesheet, custom theme, customize theme, shared hosting, custom elements  
+  
+**Requires at least:** 3.0  
+  
+**Tested up to:** 6.4.2  
+  
+**Stable tag:** main
+  
 
-Adds a Theme option to any active theme allowing you to make a child theme.
+Adds a Theme option to any active theme allowing you to make a child theme with custom elements.
 
 ## Description ##
 
@@ -49,14 +55,20 @@ that will allow you to create a child theme based on the current active theme.
 
 ## Screenshots ##
 
-###1. To use the plugin, click one of these two palces in the Appearance section of your `wp_admin` ###
-![To use the plugin, click one of these two palces in the Appearance section of your `wp_admin` ](https://ps.w.org/one-click-child-theme/assets/screenshot-1.png)
+###1. To use the plugin, click one of these two palces in the Appearance section of your `wp_admin` 
+###
+![To use the plugin, click one of these two palces in the Appearance section of your `wp_admin` 
+](https://ps.w.org/one-click-child-theme/assets/screenshot-1.png)
 
-###2. Fill out this form###
-![Fill out this form](https://ps.w.org/one-click-child-theme/assets/screenshot-2.png)
+###2. Fill out this form
+###
+![Fill out this form
+](https://ps.w.org/one-click-child-theme/assets/screenshot-2.png)
 
-###3. You will see the theme will be successfully child-themed, but will track the parent theme correctly.###
-![You will see the theme will be successfully child-themed, but will track the parent theme correctly.](https://ps.w.org/one-click-child-theme/assets/screenshot-3.png)
+###3. You will see the theme will be successfully child-themed, but will track the parent theme correctly.
+###
+![You will see the theme will be successfully child-themed, but will track the parent theme correctly.
+](https://ps.w.org/one-click-child-theme/assets/screenshot-3.png)
 
 
 ## Frequently Asked Questions ##
@@ -65,22 +77,28 @@ that will allow you to create a child theme based on the current active theme.
 
 You can wait for the theme to get updated and have it break it, or you can:
 
-###4. Go through the steps for installing and running the plugin above to create a child theme###
+###4. Go through the steps for installing and running the plugin above to create a child theme
+###
 [missing image]
 
-###5. Click on the [Appearance &gt; Editor](http://codex.wordpress.org/Appearance_Editor_SubPanel) in your admin dashboard menu (or network admin menu if multi-site).###
+###5. Click on the [Appearance &gt; Editor](http://codex.wordpress.org/Appearance_Editor_SubPanel) in your admin dashboard menu (or network admin menu if multi-site).
+###
 [missing image]
 
-###6. Select the parent theme in the drop down on the right, click `Select` and make sure you are editing the file `style.css` (select on the right).###
+###6. Select the parent theme in the drop down on the right, click `Select` and make sure you are editing the file `style.css` (select on the right).
+###
 [missing image]
 
-###7. Copy the changes you made, if you managed to remember them.###
+###7. Copy the changes you made, if you managed to remember them.
+###
 [missing image]
 
-###8. Select the child theme you created to the drop down in the left (you should be editing `style.css`).###
+###8. Select the child theme you created to the drop down in the left (you should be editing `style.css`).
+###
 [missing image]
 
-###9. Paste your changes to the end of the file.###
+###9. Paste your changes to the end of the file.
+###
 [missing image]
 
 
@@ -104,13 +122,16 @@ our best to help you.
 I really need to update the screenshot. It's still there, but the location has
 changed as WordPress has been upgraded.
 
-###10. Go to the `Appearance` tab###
+###10. Go to the `Appearance` tab
+###
 [missing image]
 
-###11. Click on the Active theme (it should say "Theme Details" when you mouseover)###
+###11. Click on the Active theme (it should say "Theme Details" when you mouseover)
+###
 [missing image]
 
-###12. An overlay appears. The Theme option button "Child Theme" is there###
+###12. An overlay appears. The Theme option button "Child Theme" is there
+###
 [missing image]
 
 
