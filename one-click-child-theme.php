@@ -568,14 +568,8 @@ class OneClickChildTheme {
 		// "Generate" functions.php 
 		copy( $this->_pluginDir.'/templates/functions.php', $new_theme_path.'/functions.php' );
 
-		// RTL support
-		$rtl_theme = ( file_exists( $parent_theme_dir.'/rtl.css' ) )
-			? $parent_theme_name
-			: 'twentyfifteen'; //use the latest default theme rtl file
-		ob_start();
-		require $this->_pluginDir.'/templates/rtl-css.php';
-		$css = ob_get_clean();
-		file_put_contents( $new_theme_path.'/rtl.css', $css );
+		// "Generate" customElements.js 
+		copy( $this->_pluginDir.'/templates/customElements.js', $new_theme_path.'/customElements.js' );
 
 		// Copy screenshot
 		if ( $screenshot_filename = $this->_scanForScreenshot( $parent_theme_dir ) ) {
