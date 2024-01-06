@@ -661,7 +661,7 @@ class OneClickChildTheme {
 	 */
 	private function _scanForScreenshot($directory)
 	{
-		$screenshots = glob( $directory.'/screenshot.{png,jpg,jpeg,gif}', GLOB_BRACE );
+		$screenshots = glob( $directory.'/screenshot.png');
 		return (empty($screenshots)) 
 			? false
 			: basename($screenshots[0]);
